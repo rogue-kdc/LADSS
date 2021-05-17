@@ -1,3 +1,12 @@
+// Exploit Title: Lepide AD Self-Service RCE
+// Google Dork: inurl: "LADSS"
+// Google Dork: inurl: "Lepide Active Directory Self Service"
+// Exploit Author: Nabeel Ahmed (@rogue_kdc)
+// Exploit Author: Eric Schayes (@EricSchayes)
+// Vendor Homepage: https://www.lepide.com/active-directory-self-service/
+// Version: All
+// Tested on: Windows Server 2019
+// CVE : N/A
 import java.io.InputStream;
 import java.net.URL;
 import java.security.Key;
